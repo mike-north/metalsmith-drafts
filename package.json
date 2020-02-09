@@ -1,8 +1,8 @@
 {
-  "name": "metalsmith-drafts",
+  "name": "@mike-north/metalsmith-drafts",
   "description": "A metalsmith plugin to hide drafts.",
   "repository": "git://github.com/segmentio/metalsmith-drafts.git",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
@@ -16,12 +16,15 @@
   "devDependencies": {
     "assert-dir-equal": "^1.1.0",
     "del": "^5.1.0",
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-prettier": "^3.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "metalsmith": "^2.3.0",
-    "mocha": "^6.2.2",
-    "nodemon": "^1.19.4",
-    "prettier": "^1.18.2"
+    "mocha": "^7.0.1",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  },
+  "engines": {
+    "node": "10.* || > 12"
   }
 }
