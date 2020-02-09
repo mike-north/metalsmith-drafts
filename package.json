@@ -2,7 +2,7 @@
   "name": "@mike-north/metalsmith-drafts",
   "description": "A metalsmith plugin to hide drafts.",
   "repository": "git://github.com/segmentio/metalsmith-drafts.git",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
